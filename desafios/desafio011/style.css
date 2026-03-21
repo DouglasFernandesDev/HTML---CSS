@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: white;
+    
+}
+header {
+    background-color: black;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+header > h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 8vw;
+    padding-top: 50px;
+    margin: 0px;
+    padding: 0px;
+
+}
+header > p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 10px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+header > p > a {
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+    
+}
+section.cx1 {
+    font-size: 2.5em;
+    margin: 25px;
+    padding: 10px 0px;
+    
+}
+section.cx2 {
+    font-size: 2.5em;
+    margin: 25px;
+    padding: 10px 0px;
+    display: block;
+    
+}
+section.cx2 > div {
+      background-image: url("joaninha.jpg");
+      background-position: right center;
+      background-attachment: fixed;
+      background-size: cover;
+      color: white;
+      height: 500px ;
+      display: block;
+      
+}
+div{
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 10% 20% 2% 5%;
+    margin: 0px;
+}
+section.cx3 {
+    font-size: 2.5em;
+    margin: 25px;
+    padding: 10px 0px;
+}
+section.cx4 {
+    font-size: 2.5em;
+    margin: 25px;
+    padding: 10px 0px;
+}
+section.cx5 {
+    font-size: 2.5em;
+    margin: 25px;
+    padding: 10px 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+div.interna1 {
+    background-image: url("livro.jpg");
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 10% 20% 2% 5%;
+    margin: 0px;
+}
+section.cx6 {
+    font-size: 2.5em;
+    margin: 25px;
+    padding: 10px 0px;
+}
+section.cx7 {
+    font-size: 2.5em;
+    margin: 25px;
+    padding: 10px 0px;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer > p > a {
+    color: white;
+    font-weight: bolder;
+    margin: 0px;
+}
