@@ -1,114 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
-body{
-    background-color: white;
-    
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 header {
     background-color: black;
-    min-height: 150px;
+    color: white;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    margin: 0px;
 }
 
 header > h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    font-size: 8vw;
     padding-top: 50px;
-    margin: 0px;
-    padding: 0px;
+    font-variant: small-caps;
+}
 
-}
 header > p {
+    padding-bottom: 50px;
+}
+a {
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px 10px;
-    padding: 0px;
     text-decoration: none;
-    
-}
-header > p > a {
-    color: white;
     font-weight: bolder;
-    margin: 0px;
-    
 }
-section.cx1 {
-    font-size: 2.5em;
-    margin: 25px;
-    padding: 10px 0px;
-    
+
+a:hover {
+    text-decoration: underline;
 }
-section.cx2 {
-    font-size: 2.5em;
-    margin: 25px;
-    padding: 10px 0px;
-    display: block;
-    
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
-section.cx2 > div {
-      background-image: url("joaninha.jpg");
-      background-position: right center;
-      background-attachment: fixed;
-      background-size: cover;
-      color: white;
-      height: 500px ;
-      display: block;
-      
+
+section.normal {
+    background-color: white;
+    color: black;
 }
-div{
-    background-color: rgba(0, 0, 0, 0.466);
-    padding: 10% 20% 2% 5%;
-    margin: 0px;
-}
-section.cx3 {
-    font-size: 2.5em;
-    margin: 25px;
-    padding: 10px 0px;
-}
-section.cx4 {
-    font-size: 2.5em;
-    margin: 25px;
-    padding: 10px 0px;
-}
-section.cx5 {
-    font-size: 2.5em;
-    margin: 25px;
-    padding: 10px 0px;
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
     color: white;
-    background-color: rgba(0, 0, 0, 0);
 }
-div.interna1 {
-    background-image: url("livro.jpg");
-    background-position: right center;
-    background-attachment: fixed;
-    background-size: cover;
-}
-nav{
-    background-color: rgba(0, 0, 0, 0.466);
-    padding: 10% 20% 2% 5%;
-    margin: 0px;
-}
-section.cx6 {
-    font-size: 2.5em;
-    margin: 25px;
-    padding: 10px 0px;
-}
-section.cx7 {
-    font-size: 2.5em;
-    margin: 25px;
-    padding: 10px 0px;
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.212);
 }
 footer {
+    color:white;
     background-color: black;
-    color: white;
     text-align: center;
-}
-footer > p > a {
-    color: white;
-    font-weight: bolder;
-    margin: 0px;
+    padding: 10px;
 }
