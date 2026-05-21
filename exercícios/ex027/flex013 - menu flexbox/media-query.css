@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@media screen end (max-width: 768px) {
+    header > nav > a {
+        flex:auto;
+    } 
+}
