@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 10px;
+}
+
+section {
+    padding: 10px;
+}
+
+section.flex-content {
+    background-color: lightgray;
+    
+    display: flex;
+    
+
+}
