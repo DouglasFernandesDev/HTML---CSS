@@ -11,12 +11,30 @@ header {
 
 section {
     padding: 10px;
+    
 }
 
 section.flex-content {
     background-color: lightgray;
+
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+article.media-text {
+    width: 100%;
     
     display: flex;
-    
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
 
+div#i1 {
+
+    order: -1;
+}
+div#i2 {
+    order: -2;
 }
